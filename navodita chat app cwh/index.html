@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real time Chat Application</title>
+    
+    <!-- defer script -->
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <nav>
+        
+        <img class='logo' src="chat logo.png" alt="" class="src">
+        <h1>QuickChat - Instant Messaging</h1>
+    </nav>
+
+    <div class="picture">
+        
+    </div>
+
+    <!-- ----------- .container -->
+    <div class="container">  
+        <!-- <img src="img2.jpg" alt="">        -->
+        <!-- <div class="msg right">user: how are you</div>
+        <div class="msg left">receiver: I am fine</div> -->
+    </div>
+
+    <div class="send">
+        <!-- ---------------------send-container -->
+        <form action="#" id="send-container">
+            <input type="text" name="msgip" id="msgip">
+            <button class="btn" type="submit">Send</button>
+        </form>
+    </div>
+    
+
+</body>
+</html>
